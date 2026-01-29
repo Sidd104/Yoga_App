@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Yoga_app</string>
+    <string name="pose1">    Step 1:- Start in the push-up position with your arms completely straight and directly beneath your shoulders.\n\n
+                             Step 2:- Your body should form a straight line from your shoulders to your ankles. \n\n
+                             Step 3:- Squeeze your abs, lift one foot off the floor and bring your knee up towards your chest while keeping your body in as straight of a line as possible. \n\n
+                             Step 4:- Return to the starting position and repeat the movement with your opposite leg.. </string>
+    <string name="pose2">    Step 1:- Lie flat on your mat with knees bent and feet on the mat. Hands at the base ofyour head and elbows pointed out. Using your abdominals bring your head and shoulders off the mat and come up into a crunch, then lower with control. </string>
+    <string name="pose3">    Step 1:- This movement is performed with a bench and a foot stool.\n\n
+                             Step 2:- Place a bench behind yourself and rest on it with your hands. Place your legs straight out in front of you. You may also place them at an elevated level as shown above.\n\n
+                             Step 3:- Begin with arms in a fully. Slowly bend at your elbows keeping the rest of your body straight. Be sure to keep your elbows back and close together.\n\n
+                             Step 4:- Dip down until your arms form a 90 degree angle and you feel a stretch in the triceps.\n\n
+                             Step 5:- Slowly extend your arms raising your body back up. Pause and contract your triceps muscles at the top. Pause and repeat the movement.</string>
+    <string name="pose4">    Step 1:- Lie flat on the floor with your lower back pressed to the ground (pull your navel in to also target your deep abs). \n\n
+                             Step 2:- Put your hands behind your head, then bring your knees in towards your Chest and lift your shoulder blades off the ground, but be sure not to pull on your neck.\n\n
+                             Step 3:-Straighten your right leg out to about a 4S-degree angle to the ground while turning your upper body to the left, bringing your right elbow towards the left knee.\n\n
+                             Step 4:- Make sure your rib cage is moving and hotjust your elbows. Now switch sides and do the same motion on the other side to complete onerep. </string>
+    <string name="pose5">   Step 1:- Lay down with your hands to your sides for support. \n\n
+                             Step 2:- Raise your legs so they are off the ground, keeping the abdominals tight.\n\n
+                             Step 3:- Slowly raise your legs 90 degrees, contracting the abdominal muscles. Slowly return to starting position. Do not touch the floor with your feet.\n\n
+                            </string>
+
+
+    <string name="pose6">    Step 1:- Lie on your back on an exercise mat. With your arms straight at your sides, bend your knees and place your feet flat on the floor between18 and 24 inches apart.\n\n
+                             Step 2:- Breathing out, crunch your ab slightly upward and sideways to the right a couple of inches until your right hand touches your right heel.\n\n
+                             Step 3:- Hold brief|y and then return to your starting position while inhaling. Repeat on the left side. </string>
+    <string name="pose7">    Step 1:- You can perform straight-leg crunches by lying face up on the floor with your legs straight and then moving your upper body as you would for a standard bent-knee crunch.\n\n
+                             Step 2:- Alternatively, lie on your back, raise your legs so they are perpendicular to the floor and then perform the standard crunching motion with your torso.
+                             </string>
+    <string name="pose8">    Step 1:- Lie down on the floor placing your feet either under something that Will not move or by having a partner hold them. Your legs should be bent at the kneesPlace your hands behind your head and lock them together by claspihg your fingers. This is the starting position.\n\n
+                             Step 2:- Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.\n\n
+                             Step 3:- Once you feel the contraction for a second, lower your upper body back down to the starting position while inhahng. \n\n
+                             Step 4:- Repeat for the recommended amount of repetitions.
+                            </string>
+    <string name="pose9">    Step 1:- Lying on the back,lift stright leg,extend opposite hand to touch toe. \n\n
+                             Step 2:- Please,return,alternate inhale down,exhale up at toe touch.
+                            </string>
+    <string name="pose10">    Step 1:- High Plank position then slowly rotate your torso to the side raising your arm till it gets ihlihe with the other one. \n\n
+                             Step 2:- Then return to the initial position.
+                            </string>
+    <string name="pose11">    Step 1:- Lie on the floor with elbows directly beneath your shoulders and legs fully extended.\n\n
+                             Step 2:- Raise your torso into the air until it makes a straight line from your shoulders to your ankles. Tighten your stomach, squeeze your butt.
+                            </string>
+    <string name="pose12">    Step 1:- Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees. Elevate your upper body so that it creates an imaginary V-shape with your thighs. \n\n
+                             Step 2:- Your arms should be fully extended in front of you perpendicular to your torso and with the hands clasped. This is the starting position.\n\n
+                             Step 3:- This is the starting position. Twist your torso to the right side until your arms are parallel with the floor while breathing out. \n\n
+                             Step 4:- Hold the contraction for a second and move back to the starting position while breathing out. Now move to the opposite side performing the same techniques you applied to the right side. Repeat for the recommended amount of repetitions.
+                            </string>
+    <string name="pose13">    Step 1:- Lie on your back with your knees bent, feet flat and hip width. \n\n
+                             Step 2:- Lower your pelvis 2 inches from the floor. Squeeze your glutes and lift your pelvis back to bridge position.
+
+                            </string>
+    <string name="pose14">    Step 1:- Lie facedown on the floor with your arms extended in front of you and your leg extended behind you. \n\n
+                             Step 2:- In one movement,engage your glutes and lower back to raise your arms,legs,and chest off the floor.\n\n
+                             Step 3:- Hold for a count,then slowly return to the starting position.
+                            </string>
+    <string name="pose15">   Step 1:- Stand, extend arms 90° to sides, bend forward 90° at waist.\n\n
+                             Step 2:- Looking at the floor, rotate torso to touch hand to foot, rotate for other hand. \n\n
+                             Step 3:- Head will follow chest action. </string>
+    <string-array name="title_story">
+        <item>Build For Muscles</item>
+        <item>Replace Green Tea With Matcha</item>
+        <item>Just Keep Moving</item>
+        <item>Micronutrients</item>
+        <item>Macronutrients</item>
+        <item>Do Yoga</item>
+        <item>Make Your Own Meal</item>
+        <item>Find Your BMI</item>
+        <item>Veg Protein Sources</item>
+        <item>Non-Veg Protein Sources</item>
+        <item>Body Types</item>
+        <item>Why Workout Matters</item>
+    </string-array>
+    <string-array name="details_stroy">
+        <item>BUILD FOR MUSCLES: THE ELITE GUIDE\n\n1. TRAINING (Hypertrophy)\nTo grow muscle, you must create microscopic tears in the fibers through resistance. Focus on:\n• Progressive Overload: This is the most important rule. You must gradually increase the weight, frequency, or reps every week to keep the body adapting.\n• Compound Movements: These use multiple joints and muscle groups. Exercises like Squats, Deadlifts, Bench Press, Pull-ups, and Rows should be the core of your routine.\n• Time Under Tension: Control the lowering phase of your lifts to maximize muscle fiber recruitment.\n\n2. NUTRITION (The Anabolic Fuel)\n• Protein: Aim for 1.6g to 2.2g of protein per kg of bodyweight. This provides amino acids for repair.\n• Caloric Surplus: To build mass, you need to eat roughly 200-500 calories above your maintenance level.\n• Carbs &amp; Fats: Carbs fuel high-intensity lifting, while healthy fats (avocados, nuts) regulate hormones like testosterone.\n\n3. RECOVERY\n• Sleep: Muscles grow while you sleep. Aim for 8 hours. Growth Hormone peaks during deep sleep.\n• Deload Weeks: Every 4-6 weeks, reduce your lifting intensity to let your central nervous system recover.</item>
+
+        <item>MATCHA TEA: THE ULTIMATE SUPERFOOD UPGRADE\n\n1. WHAT IS MATCHA?\nMatcha is a high-grade green tea powder made from stone-ground, shade-grown tea leaves. Unlike regular tea, you consume the actual leaf, not just the water.\n\n2. SCIENTIFIC BENEFITS\n• 137x More Antioxidants: It is loaded with EGCG (Epigallocatechin Gallate), which is linked to cancer prevention and fat loss.\n• Calm Energy: It contains L-Theanine, an amino acid that promotes relaxation without drowsiness. This prevents the "caffeine crash" common with coffee.\n• Detoxification: The high levels of Chlorophyll help naturally flush heavy metals and toxins from your body.\n\n3. USAGE\n• Pre-Workout: Drink it 30 mins before yoga or the gym to boost fat oxidation and focus.\n\nEXAMPLE: One cup of Matcha has the nutritional value of 10 cups of regular green tea.</item>
+
+        <item>JUST KEEP MOVING: THE PSYCHOLOGY OF CONSISTENCY\n\n1. MOMENTUM IS EVERYTHING\nFitness is not about perfection; it is about staying in motion. A 10-minute walk is 100% better than staying on the couch. Momentum creates habit, and habit creates results.\n\n2. THE 2-MINUTE RULE\nWhen you feel lazy, tell yourself: "I will just put on my shoes and move for 2 minutes." Usually, once you start, the brain’s resistance disappears and you will finish the workout.\n\n3. MENTAL TOUGHNESS\nDiscipline is doing what needs to be done even when you don\'t feel like it. Every time you show up on a "bad day," you build mental strength that carries over into your work and life.\n\nREMEMBER: You don\'t have to be fast, you just have to be moving forward.</item>
+
+        <item>MICRONUTRIENTS: THE BODY\'S OPERATING SYSTEM\n\n1. VITAMINS (The Regulators)\n• Vitamin D: Critical for bone density and immune function. Most people are deficient; sunlight is the best source.\n• Vitamin C: Vital for collagen production, skin health, and repairing tissues.\n• B-Vitamins: These are the "energy vitamins" that help your body convert food into fuel.\n\n2. MINERALS (The Builders)\n• Magnesium: Essential for over 300 biochemical reactions, including muscle and nerve function.\n• Zinc: Necessary for protein synthesis and keeping the immune system strong.\n• Iron: Helps your blood carry oxygen to your muscles so you don\'t feel tired.\n\nSOURCES: Eat a "Rainbow Diet." The more colors on your plate (spinach, carrots, berries, beets), the more micros you get.</item>
+
+        <item>MACRONUTRIENTS: UNDERSTANDING THE BIG THREE\n\n1. PROTEIN (The Builder)\nContains 4 calories per gram. It is broken down into amino acids to build muscle, skin, hair, and enzymes. Sources: Chicken, Fish, Paneer, Eggs.\n\n2. CARBOHYDRATES (The Energy)\nContains 4 calories per gram. Carbs are converted into glucose (blood sugar) and stored in muscles as glycogen. Focus on complex carbs like Oats, Brown Rice, and Sweet Potatoes for long-lasting energy.\n\n3. FATS (The Protector)\nContains 9 calories per gram. Fats are vital for brain health, vitamin absorption (A, D, E, K), and hormone production. Sources: Olive oil, Ghee, Walnuts, Salmon.\n\nPRO TIP: A balanced meal usually looks like 30% Protein, 40% Carbs, and 30% Healthy Fats.</item>
+
+        <item>DO YOGA: A TOTAL BODY AND MIND TRANSFORMATION\n\n1. PHYSICAL BENEFITS\nYoga is functional strength. It improves your "Range of Motion" and protects your joints. It helps in correcting posture issues caused by sitting at desks.\n\n2. THE BREATH (Pranayama)\nYoga teaches you to control your breath. Deep, rhythmic breathing lowers Cortisol (the stress hormone) and switches your body into a "Rest and Digest" state.\n\n3. MENTAL CLARITY\nYoga is a "moving meditation." It teaches you to stay present and calm in uncomfortable positions, which helps you handle stress in the real world.\n\nEXAMPLE: Just 15 minutes of Sun Salutations (Surya Namaskar) in the morning can boost your energy more than a cup of coffee.</item>
+
+        <item>MAKE YOUR OWN MEAL: TAKE BACK CONTROL\n\n1. THE DANGER OF EATING OUT\nRestaurants use "Seed Oils" (like soybean or canola oil) and massive amounts of salt and sugar to make food taste good. These cause inflammation and weight gain.\n\n2. NUTRIENT DENSITY\nWhen you cook, you choose fresh ingredients. You can ensure you are getting enough fiber and protein in every bite.\n\n3. THE SAVINGS FACTOR\nCooking at home is roughly 3 times cheaper than ordering takeout. This allows you to buy higher-quality organic food.\n\nMEAL PREP TIP: Cook large batches of grains and proteins on Sundays. This "pre-prep" means you always have a healthy choice ready in 5 minutes during the busy week.</item>
+
+        <item>BMI FORMULA: MEASURING YOUR HEALTH STATUS\n\n1. THE CALCULATION\nBMI = Weight(kg) divided by [Height(m) x Height(m)].\n\n2. UNDERSTANDING THE SCORES\n• 18.5 - 24.9: Normal. This is the goal for general health.\n• 25.0 - 29.9: Overweight. Increased risk of heart issues.\n• 30.0+: Obese. High risk of diabetes and joint pain.\n\n3. THE LIMITATION\nBMI does not distinguish between muscle and fat. If you are very muscular (a bodybuilder), your BMI might say "Overweight" even if you are very healthy. Use a mirror and waist measurements alongside BMI for the best picture of health.</item>
+
+        <item>VEG PROTEIN SOURCES: THE POWER OF PLANTS\n\n1. SOY PRODUCTS (The King)\nSoybeans, Tofu, and Soya Chunks are "Complete Proteins," meaning they contain all 9 essential amino acids just like meat.\n\n2. LENTILS &amp; BEANS\nChickpeas (Chana), Kidney Beans (Rajma), and Lentils (Dal) are great sources. Combine them with rice to create a complete protein profile.\n\n3. DAIRY &amp; NUTS\n• Paneer: High in slow-digesting casein protein (great for nighttime).\n• Almonds/Peanuts: Good protein but very high in calories; use them as snacks.\n\nPORTION SIZES: 100g of Tofu = 8-10g protein | 100g of Paneer = 18g protein | 1 cup cooked Dal = 9g protein.</item>
+
+        <item>NON-VEG PROTEIN SOURCES: HIGH-EFFICIENCY FUEL\n\n1. EGGS (The Gold Standard)\nEggs have the highest "Bioavailability," meaning your body absorbs the protein from eggs better than almost any other food. Don\'t throw away the yolk; it contains vital vitamins.\n\n2. CHICKEN &amp; TURKEY\nChicken breast is the favorite of athletes because it is almost pure protein with very little fat.\n\n3. FISH (The Brain Food)\nSalmon and Mackerel provide high protein plus Omega-3 fatty acids, which reduce muscle soreness and boost brain function.\n\nPRO TIP: Avoid deep-frying your meats. Grilling, boiling, or air-frying keeps the protein high and the calories low.</item>
+
+        <item>BODY TYPES: CUSTOMIZE YOUR FITNESS PATH\n\n1. ECTOMORPH (The Lean Type)\nThin, long limbs, fast metabolism. Ectomorphs find it hard to gain weight. They should focus on heavy lifting and high-calorie diets with lots of healthy carbs.\n\n2. MESOMORPH (The Muscular Type)\nAthletic frame, broad shoulders. They gain muscle easily and lose fat quickly. A balanced mix of weight training and cardio works best for them.\n\n3. ENDOMORPH (The Round Type)\nShorter, wider frame, slower metabolism. They gain fat easily but are naturally very strong. They should prioritize high-intensity interval training (HIIT) and keep carbs lower.\n\nSUMMARY: Most people are a "mix" (e.g., Ecto-Mesomorph). Identify your dominant type to stop wasting time on the wrong exercises.</item>
+
+        <item>WHY WORKOUT MATTERS: BEYOND THE MIRROR\n\n1. LONGEVITY\nStrength training is the #1 predictor of how long you will live. It keeps your bones strong and prevents "Sarcopenia" (muscle loss) as you age.\n\n2. MENTAL HEALTH\nExercise is a powerful antidepressant. It releases Endorphins and Dopamine. It also reduces "Brain Fog" by increasing blood flow to the head.\n\n3. DISEASE PREVENTION\nRegular movement regulates blood sugar (preventing Diabetes) and keeps your arteries clear (preventing Heart Disease).\n\n4. CONFIDENCE\nWhen you become physically stronger, your mind becomes more confident. You realize that you can achieve hard goals through effort.</item>
+    </string-array>
+</resources>
