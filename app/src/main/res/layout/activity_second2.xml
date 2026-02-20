@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity2">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
@@ -86,6 +86,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#FFAAA9A9" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+
+            </RelativeLayout>
 
             <LinearLayout
                 android:id="@+id/thing_2"
@@ -261,6 +277,7 @@
                 android:layout_height="1dp"
                 android:background="#FFAAA9A9" />
 
+
             <LinearLayout
                 android:id="@+id/thing_5"
                 android:layout_width="match_parent"
@@ -376,6 +393,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#FFAAA9A9" />
+
 
             <LinearLayout
                 android:id="@+id/thing_7"
@@ -666,6 +684,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#FFAAA9A9" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+
+            </RelativeLayout>
 
             <LinearLayout
                 android:id="@+id/thing_12"

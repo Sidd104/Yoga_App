@@ -15,15 +15,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class FoodActivityDeatils extends AppCompatActivity {
 
     TextView textView;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_food_deatils);
+
+
+        mAdView=findViewById(R.id.adView);
+        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         textView = findViewById(R.id.text);
         String detailsStory = getIntent().getStringExtra("story");
@@ -57,5 +66,8 @@ public class FoodActivityDeatils extends AppCompatActivity {
         Intent intent = new Intent(FoodActivityDeatils.this, FoodActivity.class);
         startActivity(intent);
         finish();
+    }
+
+    public void gooback(View view) {
     }
 }

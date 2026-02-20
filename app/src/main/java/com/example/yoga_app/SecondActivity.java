@@ -16,15 +16,33 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class SecondActivity extends AppCompatActivity {
 
     int[] newArray;
+    private AdView mAdView,mAdview1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_second);
+
+        mAdView=findViewById(R.id.adView);
+        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
+        mAdview1=findViewById(R.id.adView1);
+        AdRequest adRequest1=new AdRequest.Builder().build();
+        mAdview1.loadAd(adRequest1);
+
+
+
+
+
 
         Toolbar toolbar=findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
