@@ -3,7 +3,6 @@ package com.example.yoga_app;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -61,33 +60,18 @@ public class ThirdActivity extends AppCompatActivity {
         });
     }
 
+    // ✅ FIXED HERE ONLY
     private void startTimer() {
+
         String timeText = mtextView.getText().toString(); // "01:00"
-        int minutes = Integer.parseInt(timeText.substring(0, 2));
-        int seconds = Integer.parseInt(timeText.substring(3, 5));
 
-        timeLeftMillis = (minutes * 60 + seconds) * 1000L;
+        // 🔥 OPEN CAMERA ACTIVITY INSTEAD OF LOCAL TIMER
+        Intent intent = new Intent(ThirdActivity.this, CameraActivity.class);
+        intent.putExtra("value", String.valueOf(buttonValue));
+        intent.putExtra("time", timeText);
+        startActivity(intent);
 
-        countDownTimer = new CountDownTimer(timeLeftMillis, 1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-                timeLeftMillis = millisUntilFinished;
-                updateTimer();
-            }
-
-            @Override
-            public void onFinish() {
-                int nextValue = buttonValue + 1;
-                if (nextValue > 15) nextValue = 1;
-
-                Intent i = new Intent(ThirdActivity.this, ThirdActivity.class);
-                i.putExtra("value", String.valueOf(nextValue));
-                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(i);
-                finish();
-            }
-        }.start();
-
+        // Keep state (sequence not broken)
         isTimerRunning = true;
         startBtn.setText("PAUSE");
     }

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF"
+    android:background="@color/app_bg"
     android:orientation="vertical"
     tools:context=".SecondActivity">
 
@@ -13,10 +13,10 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/black"
+        android:background="@color/toolbar_bg"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:title="Yoga App"
-        android:titleTextColor="#FFF" />
+        android:titleTextColor="@color/text_primary" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                         android:fontFamily="monospace"
                         android:text="Mountain Climber"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -58,13 +58,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -79,28 +80,28 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
+
                 <com.google.android.gms.ads.AdView
                     xmlns:ads="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/adView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
                     ads:adSize="BANNER"
                     ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
-
-
             </RelativeLayout>
 
             <LinearLayout
@@ -124,7 +125,7 @@
                         android:fontFamily="monospace"
                         android:text="Basic Crunches"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -132,13 +133,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -153,13 +155,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_3"
@@ -182,7 +185,7 @@
                         android:fontFamily="monospace"
                         android:text="Bench Dips"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -190,13 +193,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -211,13 +215,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_4"
@@ -240,7 +245,7 @@
                         android:fontFamily="monospace"
                         android:text="Bicycle Crunches"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -248,13 +253,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -269,14 +275,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
-
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_5"
@@ -299,7 +305,7 @@
                         android:fontFamily="monospace"
                         android:text="Leg Raise"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -307,13 +313,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -328,13 +335,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_6"
@@ -357,7 +365,7 @@
                         android:fontFamily="monospace"
                         android:text="Alternative Heel Touch"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -365,13 +373,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -386,14 +395,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
-
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_7"
@@ -416,7 +425,7 @@
                         android:fontFamily="monospace"
                         android:text="Leg Up Crunches"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -424,13 +433,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -445,13 +455,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_8"
@@ -474,7 +485,7 @@
                         android:fontFamily="monospace"
                         android:text="Sit Up"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -482,13 +493,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -503,13 +515,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_9"
@@ -532,7 +545,7 @@
                         android:fontFamily="monospace"
                         android:text="Alternative V Ups"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -540,13 +553,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -561,13 +575,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_10"
@@ -590,7 +605,7 @@
                         android:fontFamily="monospace"
                         android:text="Plank Rotation"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -598,13 +613,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -619,13 +635,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_11"
@@ -648,7 +665,7 @@
                         android:fontFamily="monospace"
                         android:text="Plank With Leg Lift"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -656,13 +673,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -677,28 +695,28 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
+
                 <com.google.android.gms.ads.AdView
                     xmlns:ads="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/adView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
                     ads:adSize="BANNER"
                     ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
-
-
             </RelativeLayout>
 
             <LinearLayout
@@ -722,7 +740,7 @@
                         android:fontFamily="monospace"
                         android:text="Russian Twist"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -730,13 +748,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -751,13 +770,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_13"
@@ -780,7 +800,7 @@
                         android:fontFamily="monospace"
                         android:text="Bridge"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -788,13 +808,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -809,13 +830,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_14"
@@ -838,7 +860,7 @@
                         android:fontFamily="monospace"
                         android:text="Vertical Leg Crunches"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -846,13 +868,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -867,13 +890,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
             <LinearLayout
                 android:id="@+id/thing_15"
@@ -896,7 +920,7 @@
                         android:fontFamily="monospace"
                         android:text="Wind Mill"
                         android:textAllCaps="true"
-                        android:textColor="#FF000000"
+                        android:textColor="@color/text_primary"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -904,13 +928,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Repeate 2 Times"
+                        android:textColor="@color/text_secondary"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="01.00 MIN"
-                        android:textColor="#FFFF5722"
+                        android:textColor="@color/accent_orange"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -925,13 +950,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.3"
-                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/text_primary" />
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#FFAAA9A9" />
+                android:background="@color/divider_color" />
 
         </LinearLayout>
     </ScrollView>

@@ -1,15 +1,11 @@
 package com.example.yoga_app;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.OnBackPressedCallback;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -29,9 +25,8 @@ public class FoodActivityDeatils extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_food_deatils);
 
-
-        mAdView=findViewById(R.id.adView);
-        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         textView = findViewById(R.id.text);
@@ -44,7 +39,6 @@ public class FoodActivityDeatils extends AppCompatActivity {
             return insets;
         });
 
-        // The modern fix for the red onBackPressed error
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
@@ -53,18 +47,12 @@ public class FoodActivityDeatils extends AppCompatActivity {
         });
     }
 
-
-
-
-
-    // Fixed typo: 'gooback' changed to 'goBack'
     public void goBack(View view) {
         goBackToFoodList();
     }
 
+    // ✅ FIXED (NO NEW ACTIVITY CREATED)
     private void goBackToFoodList() {
-        Intent intent = new Intent(FoodActivityDeatils.this, FoodActivity.class);
-        startActivity(intent);
         finish();
     }
 

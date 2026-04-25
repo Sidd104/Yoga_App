@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125146298710",
+    "project_id": "aiyogaapp",
+    "storage_bucket": "aiyogaapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125146298710:android:18293c83f604b32750bef7",
+        "android_client_info": {
+          "package_name": "com.example.yoga_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR8aSEQHDsnrn6BOkWtp5RSp1Uz4xNNG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

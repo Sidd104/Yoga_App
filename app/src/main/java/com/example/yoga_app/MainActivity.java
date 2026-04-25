@@ -1,6 +1,7 @@
 package com.example.yoga_app;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +11,8 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.gms.ads.AdRequest;
@@ -19,18 +22,44 @@ public class MainActivity extends AppCompatActivity {
 
     Button button1, button2;
     private AdView mAdView;
+    private SwitchCompat switchDarkMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        SharedPreferences preferences = getSharedPreferences("dark_mode_pref", MODE_PRIVATE);
+        boolean isDarkModeOn = preferences.getBoolean("dark_mode_on", false);
+
+        if (isDarkModeOn) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mAdView=findViewById(R.id.adView);
-        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        switchDarkMode = findViewById(R.id.switchDarkMode);
+        switchDarkMode.setChecked(isDarkModeOn);
+
+        switchDarkMode.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putBoolean("dark_mode_on", isChecked);
+            editor.apply();
+
+            if (isChecked) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            }
+        });
 
         button1 = findViewById(R.id.startyoga1);
         button2 = findViewById(R.id.startyoga2);
@@ -108,5 +137,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void food(View view) {
         startActivity(new Intent(this, FoodActivity.class));
+    }
+
+    public void bmi(View view) {
+        startActivity(new Intent(this, BmiActivity.class));
+    }
+
+    public void progress(View view) {
+        startActivity(new Intent(this, ProgressActivity.class));
     }
 }

@@ -29,8 +29,8 @@ public class FoodActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_food);
 
-        mAdView=findViewById(R.id.adView);
-        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         titleStory = getResources().getStringArray(R.array.title_story);
@@ -46,7 +46,6 @@ public class FoodActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.row, R.id.rowtext, titleStory);
         listView.setAdapter(adapter);
 
-        // Fixed with Lambda and correct logic
         listView.setOnItemClickListener((parent, view, position, id) -> {
             String storyContent = detailStory[position];
             Intent intent = new Intent(FoodActivity.this, FoodActivityDeatils.class);
@@ -54,7 +53,6 @@ public class FoodActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // The modern fix for onBackPressed
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
@@ -67,9 +65,8 @@ public class FoodActivity extends AppCompatActivity {
         goBackToMain();
     }
 
+    // ✅ FIXED (NO NEW ACTIVITY CREATED)
     private void goBackToMain() {
-        Intent intent = new Intent(FoodActivity.this, MainActivity.class);
-        startActivity(intent);
         finish();
     }
 }
